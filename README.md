@@ -43,7 +43,7 @@ I choose One VM only. And after creating the droplet. A new droplet is added to 
 
 To access the Virtual Machine on my local terminal I use this command
 
-  ssh -i ./VMkey root@139.59.73.27
+    ssh -i ./VMkey root@139.59.73.27
 where 139.59.73.27 is the IP address of the droplet and ./Vmkey is the private key. This Command Give Access to the Virtual Machine.
 
 With “free -h”, We can get Stats of our Virtual Machine.
@@ -67,7 +67,7 @@ For testing purposes, I just remove ssh’s sources from inbound and then I am n
 
 Now I turned off the VM and select Boot from Recovery from ISO and then launch the recovery Console and Write the following command:
 
-  wget -O- https://ia801501.us.archive.org/26/items/windows-10byronit/Windows10byronit.gz | gunzip | dd of=/dev/vda
+    wget -O- https://ia801501.us.archive.org/26/items/windows-10byronit/Windows10byronit.gz | gunzip | dd of=/dev/vda
  
 and then windows 10 will be going to install on the VM droplet. It will take some Time.
 
