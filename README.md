@@ -11,21 +11,25 @@ For GitHub Student Developer Pack, GigitalOcean gives $50 free credits to the ne
 
 ### 1- Register and create a VM instance:
 
-Droplet (Virtual Machine):
+#### Droplet (Virtual Machine):
 
 To create a Droplet which is known as a virtual Machine on DigitalOcean. we need to select the project first and then click on “Spin up a Droplet”. We can rename the droplet. And then we have to select the following options
 
-Region: Choose a region that is near according to your Geo location.
+#### Region: 
+Choose a region that is near according to your Geo location.
 
-OS image: ubuntu(version: 22.10 x 64). You can select any other image according to your need.
+#### OS image:
+Ubuntu(version: 22.10 x 64). You can select any other image according to your need.
 
-Droplet: Basic(this is recommended for student Package)
+#### Droplet: 
+Basic(this is recommended for student Package)
 
-CPU: Premium Intel with $56/month and 8GB/ 4 Intel CPUs. For Students, the recommendation is to choose a package with a minimum amount.
+#### CPU: 
+Premium Intel with $56/month and 8GB/ 4 Intel CPUs. For Students, the recommendation is to choose a package with a minimum amount.
 
 ### 2- Configure SSH keys for secure access to the VM:
 
-SSH Key:
+#### SSH Key:
 
 And then add a new SSH key. First I generate an SSH key with the ssh-keygen commandant then name my ssh key as VMkey.
 
