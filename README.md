@@ -39,7 +39,7 @@ I choose One VM only. And after creating the droplet. A new droplet is added to 
 
 To access the Virtual Machine on my local terminal I use this command
 
-ssh -i ./VMkey root@139.59.73.27
+  ssh -i ./VMkey root@139.59.73.27
 where 139.59.73.27 is the IP address of the droplet and ./Vmkey is the private key. This Command Give Access to the Virtual Machine.
 
 With “free -h”, We can get Stats of our Virtual Machine.
