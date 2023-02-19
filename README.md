@@ -72,7 +72,7 @@ After installation. We need to off the VM and then select Boot from the hard dri
 
 After installation, We need to do IP configuration to access this virtual Machine on a Local PC.
 
-Conclusion:
+### Conclusion:
 
 In this article, we Learn how to create a Virtual Machine and create windows 10 instances on that, which will be accessible on Local Machine. It is recommended to create Firewall and allow only specific IPs to get access to the Virtual Machine and don’t share your ssh private key with anyone else.
 
