@@ -53,6 +53,7 @@ With “free -h”, We can get Stats of our Virtual Machine.
 To add a new Firewall. We need to select the networking option given at the side and then we need to select Firewalls and then click Create Firewall. we need to select inBounds and outBounds to secure our droplet. If we want to secure the droplet then we should be allowed specific IPs rather than select ipv4 and ipv6.
 
 Here is how I select inbound and outbound Rules.
+
 <img width="558" alt="image" src="https://user-images.githubusercontent.com/74543712/219961953-8d48061d-7f88-4dea-bdec-6d7f4e23c392.png">
 
 <img width="540" alt="image" src="https://user-images.githubusercontent.com/74543712/219961964-82fa58cd-45ab-491b-bbe7-b9d6fb15c155.png">
